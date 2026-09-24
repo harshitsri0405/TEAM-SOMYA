@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  @apply bg-base-950 text-slate-800 antialiased;
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d6d9e0; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #c2c6cf; }
+
+.panel {
+  @apply bg-white border border-base-border rounded-lg shadow-sm overflow-hidden;
+}

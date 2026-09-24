@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "nagarnetra-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aedes": "^0.51.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "lowdb": "^7.0.1",
+    "mqtt": "^5.16.0",
+    "net": "^1.0.2",
+    "ws": "^8.21.3"
+  }
+}
